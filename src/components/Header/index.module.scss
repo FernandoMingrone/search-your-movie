@@ -1,0 +1,41 @@
+.header {
+  background-color: #282b29;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  justify-content: space-between;
+
+  h1 {
+    font-weight: 800;
+    color: #2c2051;
+  }
+
+  .contact__link,
+  .home__link {
+    color: #a6d1c9;
+    text-decoration: none;
+  }
+
+  nav {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+
+      li {
+        height: 5rem;
+        justify-content: space-around;
+        text-decoration: none;
+        padding-right: 4em;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+//color: #a6d1c9
+//background color: #282b29

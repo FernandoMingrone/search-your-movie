@@ -1,0 +1,40 @@
+.header {
+  background-color: #f2f2f2;
+  height: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header h1 {
+  font-weight: 800;
+  color: #2c2051;
+}
+
+.header .contact__link,
+.header .home__link {
+  color: #2c2051;
+  text-decoration: none;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header ul li {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+  padding-right: 4em;
+}
+/*# sourceMappingURL=index.module.css.map */

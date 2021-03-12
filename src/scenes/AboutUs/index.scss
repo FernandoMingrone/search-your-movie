@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    width: 90%;
+    padding: 3em;
+    color: white;
+  }
+
+  .about__vision {
+    background-color: #663290;
+  }
+
+  .about__mission {
+    background-color: #31bdbf;
+  }
+
+  .about__values {
+    background-color: #f16722;
+  }
+
+  .about__plans {
+    background-color: #d2f122;
+    margin-bottom: 6em;
+  }
+}
+
+.about__h3 {
+  align-self: start;
+  padding: 3em;
+}

@@ -1,0 +1,49 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about p {
+  width: 90%;
+  padding: 3em;
+  color: white;
+}
+
+.about .about__vision {
+  background-color: #663290;
+}
+
+.about .about__mission {
+  background-color: #31bdbf;
+}
+
+.about .about__values {
+  background-color: #f16722;
+}
+
+.about .about__plans {
+  background-color: #d2f122;
+  margin-bottom: 6em;
+}
+
+.about__h3 {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  padding: 3em;
+}
+/*# sourceMappingURL=index.css.map */

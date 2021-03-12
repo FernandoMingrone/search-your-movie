@@ -1,0 +1,23 @@
+.footer {
+  height: 9.3em;
+  background-color: #282b29;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+
+  p {
+    color: #a6d1c9;
+  }
+}
+
+.link__contact {
+  color: red;
+}
+// background: linear-gradient(
+//     90deg,
+//     rgba(2, 0, 36, 1) 0%,
+//     rgba(101, 47, 145, 1) 100%
+//   );
